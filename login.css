@@ -1,0 +1,165 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .f{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    height: 100%;
+  }
+  body{
+    display: grid;
+    place-items: center;
+    background: #dde1e7;
+    text-align: center;
+  }
+  .content{
+    width: 330px;
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73,
+                 2px 2px 5px rgba(94,104,121,0.288);
+  }
+  .content .text{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #595959;
+  }
+  .field{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    margin: auto;
+  }
+
+  .field:hover{
+      width: 275px;
+      transition:0.25s;
+  }
+
+  .field:nth-child(2){
+    margin-top: 20px;
+  }
+  .field input{
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background: #dde1e7;
+    color: #595959;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #BABECC,
+                inset -5px -5px 10px #ffffff73;
+  }
+  .field input:focus{
+    box-shadow: inset 1px 1px 2px #BABECC,
+                inset -1px -1px 2px #ffffff73;
+  }
+  .field span{
+    position: absolute;
+    color: #595959;
+    width: 50px;
+    line-height: 50px;
+  }
+  .field label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45px;
+    pointer-events: none;
+    color: #666666;
+  }
+  .field input:valid ~ label{
+    opacity: 0;
+  }
+  .forgot-pass{
+    text-align: center;
+    margin: 10px 0 10px 5px;
+  }
+  .forgot-pass a{
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  .forgot-pass:hover a{
+    text-decoration: underline;
+  }
+  button{
+    margin: 15px 0;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    background: #dde1e7;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #595959;
+    box-shadow: 2px 2px 5px #BABECC,
+               -5px -5px 10px #ffffff73;
+  }
+  button:hover{
+      background: gray;
+      transition: 0.25s;
+      border: blue;
+      width: 275px;
+  }
+  button:focus{
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px #BABECC,
+               inset -5px -5px 10px #ffffff73;
+  }
+  .sign-up{
+    margin: 10px 0;
+    color: #595959;
+    font-size: 16px;
+  }
+  .sign-up a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  .sign-up a:hover{
+    text-decoration: underline;
+  }
+  .x:hover{
+      font-size: 20px;
+  }
